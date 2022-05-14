@@ -1,7 +1,7 @@
-name: learn-github-actions
+name: GitHub Actions Demo
 on: [push]
 jobs:
-  check-bats-version:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -10,3 +10,4 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
+      - run: make lint
