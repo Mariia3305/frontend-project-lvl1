@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/mini-mariya/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "Mariya Zyryanova",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mini-mariya/frontend-project-lvl1/issues"
@@ -23,7 +23,8 @@
   },
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
