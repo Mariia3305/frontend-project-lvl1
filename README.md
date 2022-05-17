@@ -18,7 +18,7 @@
 
 ## Get started
 
-1. Clone the repository: `git clone` git@github.com:mini-mariya/frontend-project-lvl1.git 
+1. Clone the repository: `git clone git@github.com:mini-mariya/frontend-project-lvl1.git` 
 2. Enter the directory: `cd frontend-project-lvl1/`
 3. Enter command: `make install`
 4. Enter command: `npm link`
