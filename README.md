@@ -22,7 +22,7 @@
 2. Enter the directory: `cd frontend-project-lvl1/`
 3. Enter command: `make install`
 4. Enter command: `npm link`
-5. Run game: `[game\`s name]`
+5. Run game: `[the name of game]`
 
 ## Examples of using games:
 
