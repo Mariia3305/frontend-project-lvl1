@@ -1,18 +1,18 @@
-import engineOfGame from '../index.js';
-import generateRandomNumber from '../generateRandomNumber.js';
+import runEngine from '../index.js';
+import generateRandomNumber from '../helpers.js';
 
-const gameRules = 'What number is missing in the progression?';
+const rule = 'What number is missing in the progression?';
 
-const getProgression = (number, step, lengthArr) => {
+const getProgression = (number, step, ArrayLength) => {
   const numbers = [];
-  for (let i = 0; i <= lengthArr; i += 1) {
+  for (let i = 0; i <= ArrayLength; i += 1) {
     const result = number + (step * i);
     numbers.push(result);
   }
   return numbers;
 };
 
-const gameCheck = () => {
+const runCheck = () => {
   const firstNumber = generateRandomNumber(1, 20);
   const stepNumber = generateRandomNumber(1, 9);
   const progressionLength = generateRandomNumber(5, 10);
@@ -25,6 +25,6 @@ const gameCheck = () => {
   const question = progression.join(' ');
   return [question, correctAnswer];
 };
-const progressionGame = () => engineOfGame(gameRules, gameCheck);
+const runProgressionGame = () => runEngine(rule, runCheck);
 
-export default progressionGame;
+export default runProgressionGame;
