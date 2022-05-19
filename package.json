@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "This repository contains five arithmetic console games created in JavaScript. 3 questions will be asked in each game. To win, you need to answer each of them correctly",
+  "description": "Simple console Games with basic arithmetics",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
