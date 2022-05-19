@@ -2,8 +2,7 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Mariia3305/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Mariia3305/frontend-project-lvl1/actions)",
-  "main": "index.js",
+  "description": "This repository contains five arithmetic console games created in JavaScript. 3 questions will be asked in each game. To win, you need to answer each of them correctly",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
