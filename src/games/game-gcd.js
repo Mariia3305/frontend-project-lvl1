@@ -14,7 +14,7 @@ const runCheck = () => {
   const number1 = generateRandomNumber(1, 25);
   const number2 = generateRandomNumber(1, 10);
   const question = `${number1} ${number2}`;
-  const correctAnswer = `${gcd(number1, number2)}`;
+  const correctAnswer = `${getGcd(number1, number2)}`;
   return [question, correctAnswer];
 };
 const runGcdGame = () => runEngine(rule, runCheck);
