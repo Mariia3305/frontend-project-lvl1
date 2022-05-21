@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/mini-mariya/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/mini-mariya/frontend-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/648a9b9421d5458b96e03222330c2cd9f8852ea9/maintainability)](https://codeclimate.com/github/mini-mariya/frontend-project-lvl1/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8905a10cdee7e1ed325d/maintainability)](https://codeclimate.com/github/mini-mariya/frontend-project-lvl1/maintainability)
 [![Node CI](https://github.com/mini-mariya/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/mini-mariya/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 # Brain-Games
