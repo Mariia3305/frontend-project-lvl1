@@ -10,7 +10,7 @@ const calculator = (number1, operator, number2) => {
     case '+': return number1 + number2;
     case '-': return number1 - number2;
     case '*': return number1 * number2;
-    default: return null;
+    default: throw new Error(`Unknown operator: '${ooperator}'!`);
   }
 };
 
@@ -20,7 +20,7 @@ const runCheck = () => {
   const randomOperator = operators[generateRandomNumber(0, operators.length)];
 
   const question = `${number1} ${randomOperator} ${number2}`;
-  const correctAnswer = (`${calculator(number1, randomOperator, number2)}`).toString();
+  const correctAnswer = `${calculator(number1, randomOperator, number2)}`;
   return [question, correctAnswer];
 };
 const runCalcGame = () => runEngine(rule, runCheck);
