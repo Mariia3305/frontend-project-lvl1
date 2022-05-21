@@ -17,7 +17,8 @@ const calculator = (number1, operator, number2) => {
 const runCheck = () => {
   const number1 = generateRandomNumber(1, 50);
   const number2 = generateRandomNumber(1, 50);
-  const randomOperator = operators[generateRandomNumber(0, calculator.length)];
+  const randomOperator = operators[generateRandomNumber(0, operators.length)];
+
   const question = `${number1} ${randomOperator} ${number2}`;
   const correctAnswer = `${calculator(number1, randomOperator, number2)}`;
   return [question, correctAnswer];
