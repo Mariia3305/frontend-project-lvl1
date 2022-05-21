@@ -3,11 +3,11 @@ import generateRandomNumber from '../helpers.js';
 
 const rule = 'Find the greatest common divisor of given numbers';
 
-const gcd = (randomNum1, randomNum2) => {
+const getGcd = (randomNum1, randomNum2) => {
   if (!randomNum2) {
     return randomNum1;
   }
-  return gcd(randomNum2, randomNum1 % randomNum2);
+  return getGcd(randomNum2, randomNum1 % randomNum2);
 };
 
 const runCheck = () => {
