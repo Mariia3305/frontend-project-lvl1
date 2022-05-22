@@ -20,7 +20,7 @@ const runCheck = () => {
   const randomOperator = operators[generateRandomNumber(0, operators.length - 1)];
 
   const question = `${number1} ${randomOperator} ${number2}`;
-  const correctAnswer = String(calculator(number1, randomOperator, number2))
+  const correctAnswer = String(calculator(number1, randomOperator, number2));
   return [question, correctAnswer];
 };
 const runCalcGame = () => runEngine(rule, runCheck);
