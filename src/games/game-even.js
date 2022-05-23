@@ -7,7 +7,7 @@ const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const runCheck = () => {
   const number = generateRandomNumber(1, 500);
-  const question = `${number}`;
+  const question = String(number);
   const correctAnswer = isEven(number) ? 'yes' : 'no';
   return [question, correctAnswer];
 };

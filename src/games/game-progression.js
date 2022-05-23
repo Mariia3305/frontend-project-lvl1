@@ -20,7 +20,7 @@ const runCheck = () => {
   const progression = getProgression(firstNumber, progressionStep, progressionLength);
   const hiddenIndex = generateRandomNumber(0, progression.length - 1);
 
-  const correctAnswer = `${progression[hiddenIndex]}`;
+  const correctAnswer = String(progression[hiddenIndex]);
   progression[hiddenIndex] = '..';
   const question = progression.join(' ');
   return [question, correctAnswer];
